@@ -48,7 +48,7 @@ signs data set:
 * The size of training set is ?
 * The size of training set is 34799
 * The size of the validation set is ?
-  The size of validation examples = 4410
+* The size of validation examples = 4410
 * The size of test set is ?
 * The size of test set is 12630
 * The shape of a traffic sign image is ?
