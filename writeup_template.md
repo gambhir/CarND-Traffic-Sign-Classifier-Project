@@ -20,6 +20,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./random-sign.png  "Visualization"
+[image20]: ./distribution.png  "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -65,6 +66,10 @@ Here is an exploratory visualization of the data set. It pulls in a random set o
 
 
 ![alt text][image1]
+
+I also created a histogram of each image class and their count 
+
+![alt text][image20]
 
 ###Design and Test a Model Architecture
 
