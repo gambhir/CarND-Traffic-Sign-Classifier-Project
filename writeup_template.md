@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[image1]: ./random-sign.png  "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -46,14 +46,23 @@ I used the pandas library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is ?
+* The size of training set is 34799
 * The size of the validation set is ?
+* The size of validation examples = 4410
 * The size of test set is ?
+* The size of test set is 12630
 * The shape of a traffic sign image is ?
+* The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is ?
+* The number of unique classes/labels in the data set is 43
 
 ####2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+
+Here is an exploratory visualization of the data set. It pulls in a random set of eight images and labels them with the correct names in reference with the csv file to their respective id's.
+
+
 
 ![alt text][image1]
 
