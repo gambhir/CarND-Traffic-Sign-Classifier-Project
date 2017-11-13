@@ -24,12 +24,12 @@ The goals / steps of this project are the following:
 [image21]: ./grayscale_converted.png  "Grayscale"
 [image22]: ./augmented_image.png  "Grayscale"
 
-[image2]: ./my_signs/1.png "Traffic Sign 1"
-[image3]: ./my_signs/2.png "Traffic Sign 2"
-[image4]: ./my_signs/3.png "Traffic Sign 3"
-[image5]: ./my_signs/4.png "Traffic Sign 4"
-[image6]: ./my_signs/5.png "Traffic Sign 5"
-[image6]: ./my_signs/6.png "Traffic Sign 6"
+[image2]: ./mysigns/1.png "Traffic Sign 1"
+[image3]: ./mysigns/2.png "Traffic Sign 2"
+[image4]: ./mysigns/3.png "Traffic Sign 3"
+[image5]: ./mysigns/4.png "Traffic Sign 4"
+[image6]: ./mysigns/5.png "Traffic Sign 5"
+[image7]: ./mysigns/6.png "Traffic Sign 6"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -165,8 +165,8 @@ If an iterative approach was chosen:
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image2] ![alt text][image3] ![alt text][image4] 
+![alt text][image5] ![alt text][image6] ![alt text][image7]
 
 The first image might be difficult to classify because ...
 
