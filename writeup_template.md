@@ -63,19 +63,20 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 Here is an exploratory visualization of the data set. It pulls in a random set of eight images and labels them with the correct names in reference with the csv file to their respective id's.
 
-
-
 ![alt text][image1]
 
 I also created a histogram of each image class and their count 
 
 ![alt text][image20]
 
+
+I did some preprocessing of the images by converting to grayscale because it is better for machine than human  After the grayscale. Very Deep nets can be trained faster and generalize better when the distribution of activations is kept normalized.
+
 ###Design and Test a Model Architecture
 
 ####1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale because ...
+As a first step, I decided to convert the images to grayscale
 
 Here is an example of a traffic sign image before and after grayscaling.
 
