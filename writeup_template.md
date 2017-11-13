@@ -22,6 +22,7 @@ The goals / steps of this project are the following:
 [image1]: ./random-sign.png  "Visualization"
 [image20]: ./distribution.png  "Histogram"
 [image21]: ./grayscale_converted.png  "Grayscale"
+[image22]: ./augmented_image.png  "Grayscale"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -84,14 +85,18 @@ Here is an example of a traffic sign image after grayscaling.
 ![alt text][image21]
 
 As a last step, I normalized the image data because ...
+It help to speed the training and performance because of things like resources. Also added additional images to the datasets through randomized modifications.
 
 I decided to generate additional data because ... 
+The more diverse the data the performance of the network increases.
 
 To add more data to the the data set, I used the following techniques because ... 
 
+
+
 Here is an example of an original image and an augmented image:
 
-![alt text][image3]
+![alt text][image22]
 
 The difference between the original data set and the augmented data set is the following ... 
 
