@@ -91,15 +91,17 @@ I decided to generate additional data because ...
 The more diverse the data the performance of the network increases.
 
 To add more data to the the data set, I used the following techniques because ... 
-
-
+I used opencv Affine transformation which consist 
+* Rotations (linear transformation)
+* Translations (vector addition)
+* Scale operations (linear transformation)
 
 Here is an example of an original image and an augmented image:
 
 ![alt text][image22]
 
 The difference between the original data set and the augmented data set is the following ... 
-
+I increased the train dataset size to 89860 from 34799.
 
 ####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
@@ -107,17 +109,20 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 grayscale image   							| 
+| Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
- 
-
+| Max pooling	      	| 2x2 stride, outputs 16x16x64 				|
+| Convolution 5x5		    | 1x1 stride, valid padding, outputs 14x14x6|
+| Relu		| 			|
+| Fully connected				| Input 14x14x6 = 400 output 120      									|
+|	Relu				|												|
+| droupout					|												|
+| Fully connected					|			Input 120 output 84									|
+| Relu					|									|
+| droupout					|									|
+| Fully connected						|			Input 84 output 43						|
+| Softmax						|								|
 
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
