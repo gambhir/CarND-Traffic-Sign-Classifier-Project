@@ -23,13 +23,13 @@ The goals / steps of this project are the following:
 [image20]: ./distribution.png  "Histogram"
 [image21]: ./grayscale_converted.png  "Grayscale"
 [image22]: ./augmented_image.png  "Grayscale"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+
+[image2]: ./my_signs/1.png "Traffic Sign 1"
+[image3]: ./my_signs/2.png "Traffic Sign 2"
+[image4]: ./my_signs/3.png "Traffic Sign 3"
+[image5]: ./my_signs/4.png "Traffic Sign 4"
+[image6]: ./my_signs/5.png "Traffic Sign 5"
+[image6]: ./my_signs/6.png "Traffic Sign 6"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -133,24 +133,31 @@ To train the model, I started from a a well known architecture (LeNet) because o
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
 
-
 My final model results were:
 * training set accuracy of ?
+* Train Accuracy = 0.994
 * validation set accuracy of ? 
+* Valid Accuracy = 0.962  
 * test set accuracy of ?
+* Test Accuracy = 0.933
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+* I used the Lenet to train and it gave very good result.
 * What were some problems with the initial architecture?
+* Since some of the classes had very few dataset it was really important to augment the data so that each class had at least * 1000 images. And after adding an extra convolution layer the model performed really good on Test images with accuracy of  * 99%
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
 
-If a well known architecture was chosen:
-* What architecture was chosen?
-* Why did you believe it would be relevant to the traffic sign application?
-* How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
- 
+* A dropout rate of 30% and a learning rate of 0.00097 was selected after a few trial and errors. Training the model overall 
+* takes around 15 mins.
+* Which parameters were tuned? How were they adjusted and why?
+* Batch size, learning rate, epoch were all parameters tuned along with the number of random 
+* modifications to generate more image data was tuned.
+
+* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+* The most important thing was to augment the dataset along with enough convolutions to capture 
+* features will greatly improve speed of training and accuracy.
+
 
 ###Test a Model on New Images
 
