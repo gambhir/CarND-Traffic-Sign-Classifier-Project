@@ -176,12 +176,12 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
-
+| Right-of-way at the next intersection  		| 1.00   									| 
+| Bumpy road		| 1.00 										|
+| Ahead Only					| 1.00											|
+| General Caution      		| 1.00					 				|
+| Go Straight or Left			| 1.00     							|
+| Road Work			| 1.00     							|
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
 
