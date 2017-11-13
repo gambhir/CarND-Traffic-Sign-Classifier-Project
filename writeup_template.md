@@ -24,6 +24,11 @@ The goals / steps of this project are the following:
 [image21]: ./grayscale_converted.png  "Grayscale"
 [image22]: ./augmented_image.png  "Augmented"
 [image23]: ./top5_softmax.png  "Softmax"
+[image24]: ./top5_softmax1.png  "Softmax"
+[image25]: ./top5_softmax2.png  "Softmax"
+[image26]: ./top5_softmax3.png  "Softmax"
+[image27]: ./top5_softmax4.png  "Softmax"
+[image28]: ./top5_softmax5.png  "Softmax"
 
 [image2]: ./mysigns/1.png "Traffic Sign 1"
 [image3]: ./mysigns/2.png "Traffic Sign 2"
@@ -189,7 +194,11 @@ The model was able to correctly guess all traffic signs, which gives an accuracy
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 ![alt text][image23]
-
+![alt text][image24]
+![alt text][image25]
+![alt text][image26]
+![alt text][image27]
+![alt text][image28]
 
 For the second image ... 
 
