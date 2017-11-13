@@ -20,7 +20,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./random-sign.png  "Visualization"
-[image20]: ./distribution.png  "Visualization"
+[image20]: ./distribution.png  "Histogram"
+[image21]: ./grayscale_converted.png  "Grayscale"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -78,9 +79,9 @@ I did some preprocessing of the images by converting to grayscale because it is 
 
 As a first step, I decided to convert the images to grayscale
 
-Here is an example of a traffic sign image before and after grayscaling.
+Here is an example of a traffic sign image after grayscaling.
 
-![alt text][image2]
+![alt text][image21]
 
 As a last step, I normalized the image data because ...
 
